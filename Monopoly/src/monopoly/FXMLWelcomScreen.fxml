@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="monopoly.WelcomScreenController">
+   <children>
+      <Label layoutX="97.0" layoutY="47.0" text="The Life Of Ryan Monopoly">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="125.0" text="Select Number of Players">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="NumberofPlayers" layoutX="270.0" layoutY="188.0" prefHeight="25.0" prefWidth="60.0" />
+      <Button fx:id="StartGameButton" layoutX="262.0" layoutY="280.0" mnemonicParsing="false" onAction="#StartGameButton" text="Start Game" />
+   </children>
+</AnchorPane>

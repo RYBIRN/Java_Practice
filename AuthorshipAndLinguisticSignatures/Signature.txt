@@ -1,0 +1,3 @@
+Name			# of Books   Average Word Length   Type Token Ratio   Hapax Legomana Ratio   Average Words Per Sentence   Average Phrases Per Sentence
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+rya                         3		    4.320		0.072		     0.035			16.055			     2.743
